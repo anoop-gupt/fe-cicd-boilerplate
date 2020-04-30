@@ -56,7 +56,8 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 ```js
 "start": "sirv public --single"
 ```
-
+### Running Local Docker Setup
+- [Read Docker file](Docker.md)
 
 ## Deploying to the web
 
