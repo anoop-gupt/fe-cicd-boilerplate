@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "mskhirwar/react-app-demo"
+    registry = "guptaanoop2005/fe-cicd-boilerplate"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/mskhirwar/react-demo-app.git'
+        git 'https://github.com/anoop-gupt/fe-cicd-boilerplate.git'
       }
     }
      stage('Install dependencies') {
